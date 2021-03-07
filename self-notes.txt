@@ -1,3 +1,14 @@
+
+TR-
+-> 1. Adım - Yüzü yakalayın ve diğer tüm şeyleri göz ardı edin (arka plan) -> OK
+-> 2. Adım - Yüzü parçalara ayırın ve yalnızca gözleri yakalayın -> OK
+-> 3. Adım - Çıkarılabilecek özellikler üzerinde bazı analizler yapın
+-> 4. Adım - Eşik ayarlanmalıdır, yani gözlerin kapalı kalacağı süre kadar sonra sistemin kullanıcıyı uyarması gerekir.
+
+Not:
+-> 'Düşük ışık koşullarında' da çalışmalıdır
+
+EN-
 -> 1st Step - Capture the face and ignore all the other stuff (background) -> DONE
 -> 2nd Step - Segment the face into parts and capture the eyes only -> DONE
 -> 3rd Step - Do some analysis on features that can be extracted
