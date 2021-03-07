@@ -9,7 +9,7 @@ import json
 def SendMail(ImgFileName):
     fromaddr="hunterkiller0421@gmail.com"  #sender gmail address
     toaddr="jfa3476@gmail.com"   #reciver gmail address
-    send_url = "http://api.ipstack.com/check?access_key=7bf70b206feb1b82eca4a6195331e493"
+    send_url = "http://api.ipstack.com/check?access_key='Your API Key"
     geo_req = requests.get(send_url)
     geo_json = json.loads(geo_req.text)
     enlem = geo_json['latitude']
@@ -37,7 +37,6 @@ def SendMail(ImgFileName):
 
     s.starttls()
 
-    s.login(fromaddr,"hunter76*34-") #enter sender gmail password here
 
     text=msg.as_string()
 
